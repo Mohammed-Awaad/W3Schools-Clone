@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+:root {
+  --green: #4ca86f;
+  --yellow: #fff4a3;
+  --black: #292a35;
+  --pink: #ffc0c7;
+  --yellow-hover: #fdf169;
+  --pink-hover: #eea8b0;
+  --bg-green: #d9eee1;
+  --bg-pink: #f3ecea;
+  --bg-whiteblue: #96d4d4;
+  --card-bg: #e7e9eb;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000;
+}
+/* ******************************************************** */
+
+/* Background Color Classes */
+.background-black {
+  background-color: var(--black);
+}
+.background-green {
+  background-color: var(--bg-green);
+}
+.background-yellow {
+  background-color: var(--yellow);
+}
+.background-whitepink {
+  background-color: var(--bg-pink);
+}
+.background-pink {
+  background-color: var(--pink);
+}
+.background-whiteblue {
+  background-color: var(--bg-whiteblue);
+}
+/* ******************************************************** */
+
+/* Button Color Classes */
+.pink-btn {
+  background-color: var(--pink);
+}
+.pink-btn:hover {
+  background-color: var(--pink-hover) !important;
+}
+.yellow-btn {
+  background-color: var(--yellow);
+}
+.yellow-btn:hover {
+  background-color: var(--yellow-hover) !important;
+}
+/* ******************************************************** */
+
+/* Navbar Styles */
+.nav-link,
+.drop-menu {
+  color: #000;
+  padding: 1.4rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.nav-link:hover,
+.drop-menu:hover {
+  color: #fff !important;
+  background-color: var(--green);
+}
+.drop-menu:hover {
+  border-radius: 0;
+}
+.dropdown-item:hover {
+  background-color: var(--green);
+  color: var(--card-bg);
+}
+/* ***************************************************** */
+
+.landing-para {
+  color: var(--pink);
+}
+#search-box {
+  border-radius: 50rem 0 0 50rem;
+  border-color: transparent;
+  box-shadow: none;
+}
+#button-addon2 {
+  border-radius: 0 50rem 50rem 0;
+}
+/* ***************************************************** */
+
+.lang-example .main-title {
+  font-size: 6.5rem;
+}
+.lang-example .card {
+  background-color: var(--card-bg);
+}
+.lang-example .card-text {
+  background-color: #fff;
+  border-left: 4px solid var(--green);
+  min-height: 19rem;
+  font-size: 0.94rem;
+  font-family: monospace;
+}
+
+.js-title {
+  font-size: 4.4rem;
+}
+.python-title,
+.sql-title {
+  font-size: 5rem;
+}
+
+/* ******************************************************** */
+.card-body h3 {
+  cursor: pointer;
+}
+
+.game-section h1,
+.game-section h2 {
+  font-family: "Freckle Face", cursive;
+}
+.quiz-section {
+  background: #232632 url(/imgs/w3codes.png) no-repeat fixed center;
+}
+
+.footer-links:hover {
+  color: var(--green) !important;
+}
